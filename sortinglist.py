@@ -7,7 +7,8 @@ for name in girls:
     hi(name)
     if (len(sorted_girls)==0) :
         sorted_girls.append(name)
-    else :
+    else : 
+        for existingname in sorted_girls:
 
         for nextname in sorted_girls:
             hi(nextname)
